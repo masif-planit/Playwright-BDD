@@ -1,0 +1,420 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-test-login-functionality1;to-test-login-functionality1",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "to test login functionality1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1681908083
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gdG8gdGVzdCBsb2dpbiBmdW5jdGlvbmFsaXR5MSBpcyBzdGFydGVkLi4uLi4uLi4uLi4uLiE=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "e2etests/tests/steps/loginpage.spec.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 421450622
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXNlciBpcyBvbiBsb2dpbiBwYWdlIGlzIHN0YXJ0ZWQuLi4uLi4uLi4uLi4uIQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "dGhpcyBpcyBzdGFydCBpZiB1c2VyIGlzIG9uIGxvZ2luZyBwYWdlIHN0ZXAuLi4uLiE=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "bG9naW4gaXMgc3VjY2Vzc2Z1bGw=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXNlciBpcyBvbiBsb2dpbiBwYWdlIGlzIGVuZGVkLi4uLi4uLi4uLi4uLiE=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enter login details",
+            "match": {
+              "location": "e2etests/tests/steps/loginpage.spec.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1266212414
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXNlciBlbnRlciBsb2dpbiBkZXRhaWxzIGlzIHN0YXJ0ZWQuLi4uLi4uLi4uLi4uIQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "aSBhbSBhYm91dCB0byBsb2dpbi4uLi4uIQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "ZW50ZXJlZCB2YWx1ZSBkdW1teTEyMzRAZ21haWwuY29tIG9uIGVtYWlsIEZpZWxk",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "ZW50ZXJlZCB2YWx1ZSBkdW1teTEyMzRAZ21haWwuY29tIG9uIHBhc3N3b3JkIEZpZWxk",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Y2xpY2tlZCBvbiBsb2dpbiBCdG4=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "bG9nb3V0IGlzIHN1Y2Nlc3NmdWxs",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXNlciBlbnRlciBsb2dpbiBkZXRhaWxzIGlzIGVuZGVkLi4uLi4uLi4uLi4uLiE=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Home page should be displayed",
+            "match": {
+              "location": "e2etests/tests/steps/homepage.spec.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 823341249
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gSG9tZSBwYWdlIHNob3VsZCBiZSBkaXNwbGF5ZWQgaXMgc3RhcnRlZC4uLi4uLi4uLi4uLi4h",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gSG9tZSBwYWdlIHNob3VsZCBiZSBkaXNwbGF5ZWQgaXMgZW5kZWQuLi4uLi4uLi4uLi4uIQ==",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Upon logout",
+            "match": {
+              "location": "e2etests/tests/steps/homepage.spec.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1636715788
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXBvbiBsb2dvdXQgaXMgc3RhcnRlZC4uLi4uLi4uLi4uLi4h",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Y2xpY2tlZCBvbiBsb2dvdXQgTGluaw==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Y2xpY2tlZCBvbiBjb250aW51ZSBCdG4=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "bG9nb3V0IGlzIGRvbmUuLi4uIQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXBvbiBsb2dvdXQgaXMgZW5kZWQuLi4uLi4uLi4uLi4uIQ==",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Logout should be successfull",
+            "match": {
+              "location": "e2etests/tests/steps/loginpage.spec.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 632623
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gTG9nb3V0IHNob3VsZCBiZSBzdWNjZXNzZnVsbCBpcyBzdGFydGVkLi4uLi4uLi4uLi4uLiE=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gTG9nb3V0IHNob3VsZCBiZSBzdWNjZXNzZnVsbCBpcyBlbmRlZC4uLi4uLi4uLi4uLi4h",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44914582
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gdG8gdGVzdCBsb2dpbiBmdW5jdGlvbmFsaXR5MSBpcyBlbmRlZC4uLi4uLi4uLi4uLi4h",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "U0NFTkFSSU8gU1RBVFVTIElTID4+Pj4+Pj4+Pj4gUEFTU0VEID4+Pj4+Pg==",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-test-login-functionality1",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "to test login functionality1",
+    "tags": [],
+    "uri": "e2etests/tests/features/homepage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-test-login-functionalit2;to-test-login-functionality2",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "to test login functionality2",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1420343624
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gdG8gdGVzdCBsb2dpbiBmdW5jdGlvbmFsaXR5MiBpcyBzdGFydGVkLi4uLi4uLi4uLi4uLiE=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "e2etests/tests/steps/loginpage.spec.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 420096500
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXNlciBpcyBvbiBsb2dpbiBwYWdlIGlzIHN0YXJ0ZWQuLi4uLi4uLi4uLi4uIQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "dGhpcyBpcyBzdGFydCBpZiB1c2VyIGlzIG9uIGxvZ2luZyBwYWdlIHN0ZXAuLi4uLiE=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "bG9naW4gaXMgc3VjY2Vzc2Z1bGw=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXNlciBpcyBvbiBsb2dpbiBwYWdlIGlzIGVuZGVkLi4uLi4uLi4uLi4uLiE=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enter login details",
+            "match": {
+              "location": "e2etests/tests/steps/loginpage.spec.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1292567874
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXNlciBlbnRlciBsb2dpbiBkZXRhaWxzIGlzIHN0YXJ0ZWQuLi4uLi4uLi4uLi4uIQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "aSBhbSBhYm91dCB0byBsb2dpbi4uLi4uIQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "ZW50ZXJlZCB2YWx1ZSBkdW1teTEyMzRAZ21haWwuY29tIG9uIGVtYWlsIEZpZWxk",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "ZW50ZXJlZCB2YWx1ZSBkdW1teTEyMzRAZ21haWwuY29tIG9uIHBhc3N3b3JkIEZpZWxk",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Y2xpY2tlZCBvbiBsb2dpbiBCdG4=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "bG9nb3V0IGlzIHN1Y2Nlc3NmdWxs",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXNlciBlbnRlciBsb2dpbiBkZXRhaWxzIGlzIGVuZGVkLi4uLi4uLi4uLi4uLiE=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Home page should be displayed",
+            "match": {
+              "location": "e2etests/tests/steps/homepage.spec.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 834044206
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gSG9tZSBwYWdlIHNob3VsZCBiZSBkaXNwbGF5ZWQgaXMgc3RhcnRlZC4uLi4uLi4uLi4uLi4h",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gSG9tZSBwYWdlIHNob3VsZCBiZSBkaXNwbGF5ZWQgaXMgZW5kZWQuLi4uLi4uLi4uLi4uIQ==",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Upon logout",
+            "match": {
+              "location": "e2etests/tests/steps/homepage.spec.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1603305497
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXBvbiBsb2dvdXQgaXMgc3RhcnRlZC4uLi4uLi4uLi4uLi4h",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Y2xpY2tlZCBvbiBsb2dvdXQgTGluaw==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Y2xpY2tlZCBvbiBjb250aW51ZSBCdG4=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "bG9nb3V0IGlzIGRvbmUuLi4uIQ==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gVXBvbiBsb2dvdXQgaXMgZW5kZWQuLi4uLi4uLi4uLi4uIQ==",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Logout should be successfull",
+            "match": {
+              "location": "e2etests/tests/steps/loginpage.spec.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 278500
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gTG9nb3V0IHNob3VsZCBiZSBzdWNjZXNzZnVsbCBpcyBzdGFydGVkLi4uLi4uLi4uLi4uLiE=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gTG9nb3V0IHNob3VsZCBiZSBzdWNjZXNzZnVsbCBpcyBlbmRlZC4uLi4uLi4uLi4uLi4h",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30044750
+            },
+            "embeddings": [
+              {
+                "data": "LS0tLS0tLS0tLS0tLS0tLS0gdG8gdGVzdCBsb2dpbiBmdW5jdGlvbmFsaXR5MiBpcyBlbmRlZC4uLi4uLi4uLi4uLi4h",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "U0NFTkFSSU8gU1RBVFVTIElTID4+Pj4+Pj4+Pj4gUEFTU0VEID4+Pj4+Pg==",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-test-login-functionalit2",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "to test login functionalit2",
+    "tags": [],
+    "uri": "e2etests/tests/features/login/login.feature"
+  }
+]
